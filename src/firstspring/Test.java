@@ -12,7 +12,8 @@ public class Test {
 		Resource resource = new ClassPathResource("applicationContext.xml");
 		BeanFactory factory = new XmlBeanFactory(resource);
 		Student student = (Student) factory.getBean("studentbean");
-		student.displayInfo();
+		//student.displayInfo();
+		
 
 	}
 
